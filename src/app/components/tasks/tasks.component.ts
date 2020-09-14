@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service';
 import { NgForm } from '@angular/forms';
 import { Task } from '../../models/task';
+import * as Rooms from '../../../assets/rooms';
 
 
 declare var M: any;
@@ -20,20 +21,7 @@ export class TasksComponent implements OnInit {
   transportList: string[] = ['Camilla', 'A peu', 'Llit', 'Cadira'];
   estatList: string[][]= [['Demanat','red'], ['Portat','cyan'], ['Tornat','green']];
   destinationList: string[] = ['RESO 1', 'RESO 2', 'TAC Tauli', 'TAC UDIAT', 'RX CENTRAL', 'RX UGCES'];
-  roomList: string[] = [
-    'T101',
-    'T102',
-    'T103',
-    'T104',
-    'T105',
-    'T106',
-    'T201',
-    'T301',
-    'T401',
-    'C102',
-    'TPCC01',
-    'TPCC11',
-  ];
+  roomList: string[] = Rooms;
   hiddenState:boolean = true;
   hiddenButton:boolean =  !(this.hiddenState);
 
