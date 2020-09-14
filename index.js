@@ -6,6 +6,10 @@ const app = express();
 
 const { mongoose } = require ('./database');
 
+// Create link to Angular build directory
+const distDir = __dirname + "/dist/";
+app.use(express.static(distDir));
+
 //Settings
 app.set('port', process.env.PORT || 3000);
 
@@ -18,6 +22,6 @@ app.use(cors());
 app.use('/api/tasks',require('./routes/tasks.routes'));
 
 //Start server
-app.listen(app.get('port'), () => {
+const server = app.listen(app.get('port'), () => {
     console.log('Server on port ', app.get('port'));
 });
