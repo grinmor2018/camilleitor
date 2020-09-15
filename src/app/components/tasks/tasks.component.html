@@ -31,14 +31,10 @@
               </div>
               <p>
                 {{ task.name }}
-                <span
-                  ><p style="font-weight: bold" class="left-align">
+                <p style="font-weight: bold" class="left-align">
                     {{ task.destination }}
-                  </p></span
-                >
-                <span
-                  ><h6 class="right-align">{{ task.hour }}</h6></span
-                >
+                  </p>
+                <h6 class="right-align">{{ task.hour }}</h6>
               </p>
             </div>
             <div class="card-footer" [hidden]="hiddenButtons">
