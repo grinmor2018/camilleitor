@@ -29,13 +29,13 @@
               <div class="card-title center grey lighten-1">
                 {{ task.room }}
               </div>
-              <p>
+              <p style="font-weight: bold" class="left-align">
                 {{ task.name }}
-                <p style="font-weight: bold" class="left-align">
-                    {{ task.destination }}
-                  </p>
-                <h6 class="right-align">{{ task.hour }}</h6>
               </p>
+              <p style="font-weight: bold" class="left-align">
+                {{ task.destination }}
+              </p>
+              <h6 class="right-align">{{ task.hour }}</h6>
             </div>
             <div class="card-footer" [hidden]="hiddenButtons">
               <div class="row">
@@ -155,10 +155,10 @@
                       type="checkbox"
                       name="oxigen"
                       #oxigen="ngModel"
-                      checked value="false"
+                      checked
+                      value="false"
                       [(ngModel)]="taskService.selectedTask.oxigen"
                       placeholder="enter oxigen"
-
                     />
                     <span class="lever"></span>
                     Yes
@@ -166,7 +166,9 @@
                 </div>
               </div>
               <div class="input-field col s3">
-                <button class="btn-small right" style="margin: 2px">Save</button>
+                <button class="btn-small right" style="margin: 2px">
+                  Save
+                </button>
                 <button
                   class="btn-small right"
                   (click)="resetForm(taskForm)"
@@ -196,7 +198,11 @@
     <div class="footer-copyright blue">
       <div class="container">
         © 2020 David M.
-        <a class="grey-text text-lighten-4 right" href="https://github.com/grinmor2018?tab=repositories">More Links</a>
+        <a
+          class="grey-text text-lighten-4 right"
+          href="https://github.com/grinmor2018?tab=repositories"
+          >More Links</a
+        >
       </div>
     </div>
   </footer>
