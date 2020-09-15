@@ -152,10 +152,11 @@
                   <label>
                     No
                     <input
+                      id="lever"
                       type="checkbox"
                       name="oxigen"
                       #oxigen="ngModel"
-                      checked
+                      ng-checked="false"
                       value="false"
                       [(ngModel)]="taskService.selectedTask.oxigen"
                       placeholder="enter oxigen"
