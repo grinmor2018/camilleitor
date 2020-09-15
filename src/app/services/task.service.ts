@@ -8,7 +8,7 @@ import { Task } from '../models/task';
 })
 export class TaskService {
 
-  selectedOxigen:boolean;
+  selectedOxigen:boolean=false;
   selectedTask: Task;
   tasks: Task[];
   readonly URL_API = '/api/tasks';
