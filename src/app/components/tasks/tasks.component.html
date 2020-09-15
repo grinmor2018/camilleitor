@@ -8,7 +8,7 @@
         *ngFor="let task of taskService.tasks"
       >
         <div class="col s12">
-          <div class="card">
+          <div class="card" (click)="activateButtons(task)">
             <div class="card-image">
               <div class="col s6">
                 <img
@@ -41,7 +41,7 @@
                 >
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" [hidden]="hiddenButtons">
               <div class="row">
                 <div class="col s6">
                   <a

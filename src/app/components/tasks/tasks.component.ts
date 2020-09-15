@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service';
 import { NgForm } from '@angular/forms';
 import { Task } from '../../models/task';
-//import * as Rooms from '../../../assets/rooms';
 import rooms from '../../../assets/data/rooms.json';
 
 
@@ -25,6 +24,7 @@ export class TasksComponent implements OnInit {
   roomList: any = rooms;
   hiddenState:boolean = true;
   hiddenButton:boolean =  !(this.hiddenState);
+  hiddenButtons:boolean = true;
 
   constructor(public taskService: TaskService) {}
 
@@ -52,6 +52,7 @@ export class TasksComponent implements OnInit {
     }
     this.hiddenState=true;
     this.hiddenButton=false;
+    this.hiddenButtons=true;
   }
 
   getTasks() {
@@ -64,6 +65,7 @@ export class TasksComponent implements OnInit {
     this.taskService.selectedTask = task;
     this.hiddenState=false;
     this.hiddenButton=true;
+    this.hiddenButtons=false;
   }
 
   deleteTask(_id: string, form: NgForm) {
@@ -81,5 +83,9 @@ export class TasksComponent implements OnInit {
       form.reset();
       this.taskService.selectedTask = new Task();
     }
+  }
+
+  activateButtons(form?: NgForm){
+    this.hiddenButtons= false;
   }
 }
