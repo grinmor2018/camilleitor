@@ -22,7 +22,7 @@ export class TasksComponent implements OnInit {
   transportList: string[] = ['Camilla', 'A peu', 'Llit', 'Cadira'];
   estatList: string[][]= [['Demanat','red'], ['Portat','cyan'], ['Tornat','green']];
   destinationList: string[] = ['RESO 1', 'RESO 2', 'TAC Tauli', 'TAC UDIAT', 'RX CENTRAL', 'RX UGCES'];
-  roomList: any = rooms.values;
+  roomList: any = rooms;
   hiddenState:boolean = true;
   hiddenButton:boolean =  !(this.hiddenState);
 
