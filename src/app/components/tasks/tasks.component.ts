@@ -17,7 +17,7 @@ declare var M: any;
 export class TasksComponent implements OnInit {
   selectedTransport: string;
 
-  oxigenList: boolean = false;
+  oxigenList: boolean;
   transportList: string[] = ['Camilla', 'A peu', 'Llit', 'Cadira'];
   estatList: string[][]= [['Demanat','red'], ['Portat','cyan'], ['Tornat','green']];
   destinationList: string[] = ['RESO 1', 'RESO 2', 'TAC Tauli', 'TAC UDIAT', 'RX Central', 'RX Ugcies','PET TAC','Med.Nuclear','Ecos'];
