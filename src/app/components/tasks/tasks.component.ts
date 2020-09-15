@@ -86,6 +86,11 @@ export class TasksComponent implements OnInit {
   }
 
   activateButtons(form?: NgForm){
-    this.hiddenButtons= false;
+    if (this.hiddenButtons===true) {
+      this.hiddenButtons = false;
+    } else{
+      this.hiddenButtons= true;
+    }
+
   }
 }
