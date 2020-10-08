@@ -16,7 +16,7 @@ declare var M: any;
 })
 export class TasksComponent implements OnInit {
 
-  transportList: string[] = ['Camilla', 'A peu', 'Llit', 'Cadira'];
+  transportList: string[] = ['Llitera', 'A peu', 'Llit', 'Cadira'];
   estatList: string[][]= [['Demanat','red'], ['Portat','cyan'], ['Tornat','green']];
   destinationList: string[] = ['RESO 1', 'RESO 2', 'TAC TAULI', 'TAC UDIAT', 'RX CENTRAL', 'RX UCIES','PET TAC','M.NUCLEAR','ECOS','RVI'];
   roomList: any = rooms;
