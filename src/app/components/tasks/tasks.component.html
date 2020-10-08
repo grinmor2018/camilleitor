@@ -74,9 +74,10 @@
               [(ngModel)]="taskService.selectedTask._id"
             />
             <div class="row">
-              <div class="input-field col s3" id="formulario">
+              <div class="input-field col s3">
                 <p><label>Room?</label></p>
                 <select
+                  id="formulario"
                   class="browser-default"
                   [(ngModel)]="taskService.selectedTask.room"
                   name="room"

@@ -94,7 +94,7 @@ export class TasksComponent implements OnInit {
   }
 
   focusMethod = function getFocus() {
-    document.getElementById("formulario").focus();
+    document.getElementById("formulario").focus({preventScroll:false});
   }
 
 }
