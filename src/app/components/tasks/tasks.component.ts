@@ -32,6 +32,7 @@ export class TasksComponent implements OnInit {
 
   addTask(form?: NgForm) {
     console.log(form.value);
+    this.getFocus();
     this.hiddenState=false;
     if (form.value._id) {
       this.taskService.putTask(form.value).subscribe((res) => {
