@@ -33,7 +33,6 @@ export class TasksComponent implements OnInit {
   addTask(form?: NgForm) {
     console.log(form.value);
     this.hiddenState=false;
-    this.focusMethod();
     if (form.value._id) {
       this.taskService.putTask(form.value).subscribe((res) => {
         this.resetForm(form);
@@ -65,6 +64,7 @@ export class TasksComponent implements OnInit {
     this.hiddenState=false;
     this.hiddenButton=true;
     this.hiddenButtons=false;
+    this.focusMethod();
   }
 
   deleteTask(_id: string, form: NgForm) {
