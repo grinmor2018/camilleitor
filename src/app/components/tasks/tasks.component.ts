@@ -94,7 +94,7 @@ export class TasksComponent implements OnInit {
   }
 
   focusMethod = function getFocus() {
-    document.getElementById("taskForm").focus();
+    document.getElementById("formulario").focus();
   }
 
 }
