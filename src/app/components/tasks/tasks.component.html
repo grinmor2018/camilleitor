@@ -13,7 +13,7 @@
               <div class="col s6">
                 <img
                   src="../../../assets/{{ task.transport }}.png"
-                  style="width: 10vw; height: 7vh; margin-top: 5px"
+                  style="width: 10vw; height: 5vh; margin-top: 5px"
                   class="circle responsive-img"
                 />
               </div>
@@ -32,10 +32,10 @@
               <p style="font-weight: 400" class="left-align">
                 {{ task.name }}
               </p>
-              <h6 style="font-weight: bold" class="left-align">
+              <p style="font-weight: bold" class="left-align">
                 {{ task.destination }}
-              </h6>
-              <h6 class="right-align">{{ task.hour }}</h6>
+              </p>
+              <p class="right-align">{{ task.hour }}</p>
             </div>
             <div class="card-footer" [hidden]="hiddenButtons">
               <div class="row">
