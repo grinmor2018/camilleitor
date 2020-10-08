@@ -64,6 +64,7 @@ export class TasksComponent implements OnInit {
     this.hiddenState=false;
     this.hiddenButton=true;
     this.hiddenButtons=false;
+    this.focusMethod();
   }
 
   deleteTask(_id: string, form: NgForm) {
@@ -91,4 +92,9 @@ export class TasksComponent implements OnInit {
     }
 
   }
+
+  focusMethod = function getFocus() {
+    document.getElementById("taskForm").focus();
+  }
+
 }
