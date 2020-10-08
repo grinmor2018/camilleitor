@@ -1,5 +1,206 @@
 [
   {
+    "room": "T001"
+  },
+  {
+    "room": "T002"
+  },
+  {
+    "room": "T003"
+  },
+  {
+    "room": "T004"
+  },
+  {
+    "room": "T005"
+  },
+  {
+    "room": "T006"
+  },
+  {
+    "room": "T007"
+  },
+  {
+    "room": "T008"
+  },
+  {
+    "room": "T009"
+  },
+  {
+    "room": "T010"
+  },
+  {
+    "room": "T011"
+  },
+  {
+    "room": "T012"
+  },
+  {
+    "room": "T013"
+  },
+  {
+    "room": "T014"
+  },
+  {
+    "room": "T015"
+  },
+  {
+    "room": "T016"
+  },
+  {
+    "room": "T017"
+  },
+  {
+    "room": "T018"
+  },
+  {
+    "room": "T019"
+  },
+  {
+    "room": "T020"
+  },
+  {
+    "room": "T021"
+  },
+  {
+    "room": "T022"
+  },
+  {
+    "room": "T023"
+  },
+  {
+    "room": "T024"
+  },
+  {
+    "room": "T025"
+  },
+  {
+    "room": "T026"
+  },
+  {
+    "room": "T027"
+  },
+  {
+    "room": "T028"
+  },
+  {
+    "room": "T029"
+  },
+  {
+    "room": "T030"
+  },
+  {
+    "room": "T031"
+  },
+  {
+    "room": "T032"
+  },
+  {
+    "room": "T033"
+  },
+  {
+    "room": "T034"
+  },
+  {
+    "room": "T035"
+  },
+  {
+    "room": "T036"
+  },
+  {
+    "room": "T037"
+  },
+  {
+    "room": "T038"
+  },
+  {
+    "room": "T039"
+  },
+  {
+    "room": "T040"
+  },
+  {
+    "room": "T041"
+  },
+  {
+    "room": "T042"
+  },
+  {
+    "room": "T043"
+  },
+  {
+    "room": "T044"
+  },
+  {
+    "room": "T045"
+  },
+  {
+    "room": "T046"
+  },
+  {
+    "room": "T047"
+  },
+  {
+    "room": "T048"
+  },
+  {
+    "room": "T049"
+  },
+  {
+    "room": "T050"
+  },
+  {
+    "room": "T051"
+  },
+  {
+    "room": "T052"
+  },
+  {
+    "room": "T053"
+  },
+  {
+    "room": "T054"
+  },
+  {
+    "room": "T055"
+  },
+  {
+    "room": "T056"
+  },
+  {
+    "room": "T057"
+  },
+  {
+    "room": "T058"
+  },
+  {
+    "room": "T059"
+  },
+  {
+    "room": "T060"
+  },
+  {
+    "room": "T061"
+  },
+  {
+    "room": "T062"
+  },
+  {
+    "room": "T063"
+  },
+  {
+    "room": "T064"
+  },
+  {
+    "room": "T065"
+  },
+  {
+    "room": "T066"
+  },
+  {
+    "room": "T067"
+  },
+  {
     "room": "T101"
   },
   {
@@ -2409,154 +2610,304 @@
     "room": "TPCC50"
   },
   {
-    "room": "A401"
+    "room": "TA301"
   },
   {
-    "room": "A402"
+    "room": "TA302"
   },
   {
-    "room": "A403"
+    "room": "TA303"
   },
   {
-    "room": "A404"
+    "room": "TA304"
   },
   {
-    "room": "A405"
+    "room": "TA305"
   },
   {
-    "room": "A406"
+    "room": "TA306"
   },
   {
-    "room": "A407"
+    "room": "TA307"
   },
   {
-    "room": "A408"
+    "room": "TA308"
   },
   {
-    "room": "A409"
+    "room": "TA309"
   },
   {
-    "room": "A410"
+    "room": "TA310"
   },
   {
-    "room": "A411"
+    "room": "TA311"
   },
   {
-    "room": "A412"
+    "room": "TA312"
   },
   {
-    "room": "A413"
+    "room": "TA313"
   },
   {
-    "room": "A414"
+    "room": "TA314"
   },
   {
-    "room": "A415"
+    "room": "TA315"
   },
   {
-    "room": "A416"
+    "room": "TA316"
   },
   {
-    "room": "A417"
+    "room": "TA317"
   },
   {
-    "room": "A418"
+    "room": "TA318"
   },
   {
-    "room": "A419"
+    "room": "TA319"
   },
   {
-    "room": "A420"
+    "room": "TA320"
   },
   {
-    "room": "A421"
+    "room": "TA321"
   },
   {
-    "room": "A422"
+    "room": "TA322"
   },
   {
-    "room": "A423"
+    "room": "TA323"
   },
   {
-    "room": "A424"
+    "room": "TA324"
   },
   {
-    "room": "A425"
+    "room": "TA325"
   },
   {
-    "room": "A426"
+    "room": "TA326"
   },
   {
-    "room": "A427"
+    "room": "TA327"
   },
   {
-    "room": "A428"
+    "room": "TA328"
   },
   {
-    "room": "A429"
+    "room": "TA329"
   },
   {
-    "room": "A430"
+    "room": "TA330"
   },
   {
-    "room": "A431"
+    "room": "TA331"
   },
   {
-    "room": "A432"
+    "room": "TA332"
   },
   {
-    "room": "A433"
+    "room": "TA333"
   },
   {
-    "room": "A434"
+    "room": "TA334"
   },
   {
-    "room": "A435"
+    "room": "TA335"
   },
   {
-    "room": "A436"
+    "room": "TA336"
   },
   {
-    "room": "A437"
+    "room": "TA337"
   },
   {
-    "room": "A438"
+    "room": "TA338"
   },
   {
-    "room": "A439"
+    "room": "TA339"
   },
   {
-    "room": "A440"
+    "room": "TA340"
   },
   {
-    "room": "A441"
+    "room": "TA341"
   },
   {
-    "room": "A442"
+    "room": "TA342"
   },
   {
-    "room": "A443"
+    "room": "TA343"
   },
   {
-    "room": "A444"
+    "room": "TA344"
   },
   {
-    "room": "A445"
+    "room": "TA345"
   },
   {
-    "room": "A446"
+    "room": "TA346"
   },
   {
-    "room": "A447"
+    "room": "TA347"
   },
   {
-    "room": "A448"
+    "room": "TA348"
   },
   {
-    "room": "A449"
+    "room": "TA349"
   },
   {
-    "room": "A450"
+    "room": "TA350"
+  },
+  {
+    "room": "AP401"
+  },
+  {
+    "room": "AP402"
+  },
+  {
+    "room": "AP403"
+  },
+  {
+    "room": "AP404"
+  },
+  {
+    "room": "AP405"
+  },
+  {
+    "room": "AP406"
+  },
+  {
+    "room": "AP407"
+  },
+  {
+    "room": "AP408"
+  },
+  {
+    "room": "AP409"
+  },
+  {
+    "room": "AP410"
+  },
+  {
+    "room": "AP411"
+  },
+  {
+    "room": "AP412"
+  },
+  {
+    "room": "AP413"
+  },
+  {
+    "room": "AP414"
+  },
+  {
+    "room": "AP415"
+  },
+  {
+    "room": "AP416"
+  },
+  {
+    "room": "AP417"
+  },
+  {
+    "room": "AP418"
+  },
+  {
+    "room": "AP419"
+  },
+  {
+    "room": "AP420"
+  },
+  {
+    "room": "AP421"
+  },
+  {
+    "room": "AP422"
+  },
+  {
+    "room": "AP423"
+  },
+  {
+    "room": "AP424"
+  },
+  {
+    "room": "AP425"
+  },
+  {
+    "room": "AP426"
+  },
+  {
+    "room": "AP427"
+  },
+  {
+    "room": "AP428"
+  },
+  {
+    "room": "AP429"
+  },
+  {
+    "room": "AP430"
+  },
+  {
+    "room": "AP431"
+  },
+  {
+    "room": "AP432"
+  },
+  {
+    "room": "AP433"
+  },
+  {
+    "room": "AP434"
+  },
+  {
+    "room": "AP435"
+  },
+  {
+    "room": "AP436"
+  },
+  {
+    "room": "AP437"
+  },
+  {
+    "room": "AP438"
+  },
+  {
+    "room": "AP439"
+  },
+  {
+    "room": "AP440"
+  },
+  {
+    "room": "AP441"
+  },
+  {
+    "room": "AP442"
+  },
+  {
+    "room": "AP443"
+  },
+  {
+    "room": "AP444"
+  },
+  {
+    "room": "AP445"
+  },
+  {
+    "room": "AP446"
+  },
+  {
+    "room": "AP447"
+  },
+  {
+    "room": "AP448"
+  },
+  {
+    "room": "AP449"
+  },
+  {
+    "room": "AP450"
   },
   {
     "room": "Dialisis"
@@ -2567,10 +2918,406 @@
     "room": "Endoscopia"
   },
   {
-    "room": "NI"
+    "room": "NI-001"
   },
   {
-    "room": "NII"
+    "room": "NI-002"
+  },
+  {
+    "room": "NI-003"
+  },
+  {
+    "room": "NI-004"
+  },
+  {
+    "room": "NI-005"
+  },
+  {
+    "room": "NI-006"
+  },
+  {
+    "room": "NI-007"
+  },
+  {
+    "room": "NI-008"
+  },
+  {
+    "room": "NI-009"
+  },
+  {
+    "room": "NI-010"
+  },
+  {
+    "room": "NI-011"
+  },
+  {
+    "room": "NI-012"
+  },
+  {
+    "room": "NI-013"
+  },
+  {
+    "room": "NI-014"
+  },
+  {
+    "room": "NI-015"
+  },
+  {
+    "room": "NI-016"
+  },
+  {
+    "room": "NI-017"
+  },
+  {
+    "room": "NI-018"
+  },
+  {
+    "room": "NI-019"
+  },
+  {
+    "room": "NI-020"
+  },
+  {
+    "room": "NI-021"
+  },
+  {
+    "room": "NI-022"
+  },
+  {
+    "room": "NI-023"
+  },
+  {
+    "room": "NI-024"
+  },
+  {
+    "room": "NI-025"
+  },
+  {
+    "room": "NI-026"
+  },
+  {
+    "room": "NI-027"
+  },
+  {
+    "room": "NI-028"
+  },
+  {
+    "room": "NI-029"
+  },
+  {
+    "room": "NI-030"
+  },
+  {
+    "room": "NI-031"
+  },
+  {
+    "room": "NI-032"
+  },
+  {
+    "room": "NI-033"
+  },
+  {
+    "room": "NI-034"
+  },
+  {
+    "room": "NI-035"
+  },
+  {
+    "room": "NI-036"
+  },
+  {
+    "room": "NI-037"
+  },
+  {
+    "room": "NI-038"
+  },
+  {
+    "room": "NI-039"
+  },
+  {
+    "room": "NI-040"
+  },
+  {
+    "room": "NI-041"
+  },
+  {
+    "room": "NI-042"
+  },
+  {
+    "room": "NI-043"
+  },
+  {
+    "room": "NI-044"
+  },
+  {
+    "room": "NI-045"
+  },
+  {
+    "room": "NI-046"
+  },
+  {
+    "room": "NI-047"
+  },
+  {
+    "room": "NI-048"
+  },
+  {
+    "room": "NI-049"
+  },
+  {
+    "room": "NI-050"
+  },
+  {
+    "room": "NI-051"
+  },
+  {
+    "room": "NI-052"
+  },
+  {
+    "room": "NI-053"
+  },
+  {
+    "room": "NI-054"
+  },
+  {
+    "room": "NI-055"
+  },
+  {
+    "room": "NI-056"
+  },
+  {
+    "room": "NI-057"
+  },
+  {
+    "room": "NI-058"
+  },
+  {
+    "room": "NI-059"
+  },
+  {
+    "room": "NI-060"
+  },
+  {
+    "room": "NI-061"
+  },
+  {
+    "room": "NI-062"
+  },
+  {
+    "room": "NI-063"
+  },
+  {
+    "room": "NI-064"
+  },
+  {
+    "room": "NI-065"
+  },
+  {
+    "room": "NI-066"
+  },
+  {
+    "room": "NI-067"
+  },
+  {
+    "room": "NII-001"
+  },
+  {
+    "room": "NII-002"
+  },
+  {
+    "room": "NII-003"
+  },
+  {
+    "room": "NII-004"
+  },
+  {
+    "room": "NII-005"
+  },
+  {
+    "room": "NII-006"
+  },
+  {
+    "room": "NII-007"
+  },
+  {
+    "room": "NII-008"
+  },
+  {
+    "room": "NII-009"
+  },
+  {
+    "room": "NII-010"
+  },
+  {
+    "room": "NII-011"
+  },
+  {
+    "room": "NII-012"
+  },
+  {
+    "room": "NII-013"
+  },
+  {
+    "room": "NII-014"
+  },
+  {
+    "room": "NII-015"
+  },
+  {
+    "room": "NII-016"
+  },
+  {
+    "room": "NII-017"
+  },
+  {
+    "room": "NII-018"
+  },
+  {
+    "room": "NII-019"
+  },
+  {
+    "room": "NII-020"
+  },
+  {
+    "room": "NII-021"
+  },
+  {
+    "room": "NII-022"
+  },
+  {
+    "room": "NII-023"
+  },
+  {
+    "room": "NII-024"
+  },
+  {
+    "room": "NII-025"
+  },
+  {
+    "room": "NII-026"
+  },
+  {
+    "room": "NII-027"
+  },
+  {
+    "room": "NII-028"
+  },
+  {
+    "room": "NII-029"
+  },
+  {
+    "room": "NII-030"
+  },
+  {
+    "room": "NII-031"
+  },
+  {
+    "room": "NII-032"
+  },
+  {
+    "room": "NII-033"
+  },
+  {
+    "room": "NII-034"
+  },
+  {
+    "room": "NII-035"
+  },
+  {
+    "room": "NII-036"
+  },
+  {
+    "room": "NII-037"
+  },
+  {
+    "room": "NII-038"
+  },
+  {
+    "room": "NII-039"
+  },
+  {
+    "room": "NII-040"
+  },
+  {
+    "room": "NII-041"
+  },
+  {
+    "room": "NII-042"
+  },
+  {
+    "room": "NII-043"
+  },
+  {
+    "room": "NII-044"
+  },
+  {
+    "room": "NII-045"
+  },
+  {
+    "room": "NII-046"
+  },
+  {
+    "room": "NII-047"
+  },
+  {
+    "room": "NII-048"
+  },
+  {
+    "room": "NII-049"
+  },
+  {
+    "room": "NII-050"
+  },
+  {
+    "room": "NII-051"
+  },
+  {
+    "room": "NII-052"
+  },
+  {
+    "room": "NII-053"
+  },
+  {
+    "room": "NII-054"
+  },
+  {
+    "room": "NII-055"
+  },
+  {
+    "room": "NII-056"
+  },
+  {
+    "room": "NII-057"
+  },
+  {
+    "room": "NII-058"
+  },
+  {
+    "room": "NII-059"
+  },
+  {
+    "room": "NII-060"
+  },
+  {
+    "room": "NII-061"
+  },
+  {
+    "room": "NII-062"
+  },
+  {
+    "room": "NII-063"
+  },
+  {
+    "room": "NII-064"
+  },
+  {
+    "room": "NII-065"
+  },
+  {
+    "room": "NII-066"
+  },
+  {
+    "room": "NII-067"
   },
   {
     "room": "U.Pedia"
