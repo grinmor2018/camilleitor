@@ -63,7 +63,7 @@ export class TasksComponent implements OnInit {
     this.taskService.selectedTask = task;
     this.hiddenState=false;
     this.hiddenButton=true;
-    this.hiddenButtons=false;
+    this.hiddenButtons=true;
     this.getFocus();
   }
 
@@ -87,10 +87,7 @@ export class TasksComponent implements OnInit {
   activateButtons(task: Task){
     if (this.hiddenButtons===true) {
       this.hiddenButtons = false;
-    } else{
-      this.hiddenButtons= true;
     }
-
   }
 
   getFocus() {
