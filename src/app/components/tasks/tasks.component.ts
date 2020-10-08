@@ -88,6 +88,8 @@ export class TasksComponent implements OnInit {
     if (this.hiddenButtons===true) {
       this.hiddenButtons = false;
     }
+    else { this.hiddenButtons = true;
+    }
   }
 
   getFocus() {
