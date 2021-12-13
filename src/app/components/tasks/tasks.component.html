@@ -1,62 +1,63 @@
-<div class="container grey">
   <div class="row">
     <!--Show tasks-->
-    <div class="col s12">
-      <div
-        class="card col s6 m4 l3 xl2 {{ task.estat[0] }}"
-        style="margin-left: 0px"
-        *ngFor="let task of taskService.tasks"
-      >
-        <div class="col s12">
-          <div class="card" (click)="activateButtons(task)">
-            <div class="card-image">
-              <div class="col s6">
-                <img
-                  src="../../../assets/{{ task.transport }}.png"
-                  style="width: 10vw; height: 5vh; margin-top: 5px"
-                  class="circle responsive-img"
-                />
-              </div>
-              <div class="col s6">
-                <img
-                  src="../../../assets/{{ task.oxigen }}.png"
-                  style="width: 7vw; height: 5vh; margin-top: 5px"
-                  class="circle responsive-img"
-                />
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="card-title left grey lighten-1" style="font-weight: bold">
-                {{ task.room }}
-              </div>
-              <p></p>
-              <p style="font-weight: 400" class="left-align">
-                {{ task.name }}
-              </p>
-              <p style="font-weight: bold" class="left-align">
-                {{ task.destination }}
-              </p>
-              <p class="right-align">{{ task.hour }}</p>
-            </div>
-            <div class="card-footer" [hidden]="hiddenButtons">
-              <div class="row">
-                <div class="col s6">
-                  <a
-                    class="btn-floating right waves-effect waves-light teal"
-                    (click)="editTask(task)"
+    <div
+      class="card col s6 m4 l3 xl2 {{ task.estat[0] }}"
+      style="margin-left: 0px"
+      *ngFor="let task of taskService.tasks"
+    >
+      <div class="card" (click)="activateButtons(task)">
+        <div class="row center">
+          <div class="col">
+            <img
+              src="../../../assets/{{ task.transport }}.png"
+              class="img-fluid"
+              style="
+                width: 10vw;
+                height: 5vh;
+                margin-top: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+              "
+            />
+          </div>
+          <div class="col">
+            <img
+              src="../../../assets/{{ task.oxigen }}.png"
+              class="img-fluid"
+              style="
+                width: 7vw;
+                height: 5vh;
+                margin-top: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+              "
+            />
+          </div>
+        </div>
 
-                    ><i class="material-icons">edit</i></a
-                  >
-                </div>
-                <div class="col s6">
-                  <a
-                    class="btn-floating left waves-effect waves-light red"
-                    (click)="deleteTask(task._id, taskForm)"
-                    ><i class="material-icons">remove</i></a
-                  >
-                </div>
-              </div>
-            </div>
+        <h4 class="grey center">
+          <strong>{{ task.room }}</strong>
+        </h4>
+        <h6>{{ task.name }}</h6>
+        <h6 class="center">
+          <strong>{{ task.destination }}</strong>
+        </h6>
+        <h5 class="right-align" style="color: red">{{ task.hour }}</h5>
+
+        <div class="row" [hidden]="hiddenButtons">
+          <div class="col s6">
+            <a
+              class="btn-floating right waves-effect waves-light teal"
+              (click)="editTask(task)"
+              ><i class="material-icons">edit</i></a
+            >
+          </div>
+          <div class="col s6">
+            <a
+              class="btn-floating left waves-effect waves-light red"
+              (click)="deleteTask(task._id, taskForm)"
+              ><i class="material-icons">remove</i></a
+            >
           </div>
         </div>
       </div>
@@ -64,20 +65,16 @@
   </div>
   <div class="row" [hidden]="hiddenState">
     <!--Show form-->
-    <div class="col s12">
-      <div class="card">
-        <div class="card-content">
-          <form #taskForm="ngForm" (ngSubmit)="addTask(taskForm)">
+    <form #taskForm="ngForm" (ngSubmit)="addTask(taskForm)">
             <input
               type="hidden"
               name="_id"
               #_id="ngModel"
               [(ngModel)]="taskService.selectedTask._id"
             />
-            <div class="row">
-              <div class="input-field col s3">
-                <p><label>Room?</label></p>
-                <select
+
+            <label>Room</label>
+            <select
                   id="formulario"
                   class="browser-default"
                   [(ngModel)]="taskService.selectedTask.room"
@@ -86,45 +83,36 @@
                   <option *ngFor="let room of roomList">
                     {{ room.room }}
                   </option>
-                </select>
-              </div>
-              <div class="input-field col s3">
-                <p><label>Name?</label></p>
-                <input
+            </select>
+
+            <input
                   type="text"
                   name="name"
                   #name="ngModel"
                   [(ngModel)]="taskService.selectedTask.name"
-                  placeholder="enter the name"
-                />
-              </div>
-              <div class="input-field col s3">
-                <p><label>Hour?</label></p>
-                <input
-                  type="time"
-                  name="hour"
-                  #hour="ngModel"
-                  [(ngModel)]="taskService.selectedTask.hour"
-                  placeholder="enter hour"
-                />
-              </div>
-              <div class="input-field col s3">
-                <p><label>Transport?</label></p>
-                <select
-                  class="browser-default"
-                  [(ngModel)]="taskService.selectedTask.transport"
-                  name="transport"
-                >
-                  <option *ngFor="let transport of transportList">
-                    {{ transport }}
-                  </option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s3">
-                <p><label>Destination?</label></p>
-                <select
+                  placeholder="enter pacient"
+            />
+
+            <input
+              type="time"
+              name="hour"
+              #hour="ngModel"
+              [(ngModel)]="taskService.selectedTask.hour"
+            />
+
+            <label>Transport</label>
+            <select
+              class="browser-default"
+              [(ngModel)]="taskService.selectedTask.transport"
+              name="transport"
+            >
+              <option *ngFor="let transport of transportList">
+                {{ transport }}
+              </option>
+            </select>
+
+            <label>Destination</label>
+            <select
                   class="browser-default"
                   [(ngModel)]="taskService.selectedTask.destination"
                   name="destination"
@@ -132,59 +120,47 @@
                   <option *ngFor="let destination of destinationList">
                     {{ destination }}
                   </option>
-                </select>
-              </div>
-              <div class="input-field col s3">
-                <p><label>Estat?</label></p>
-                <select
+            </select>
+
+            <label>Estat</label>
+            <select
                   class="browser-default"
                   [(ngModel)]="taskService.selectedTask.estat"
                   name="estat"
                 >
-                  <option
-                    *ngFor="let estat of estatList"
-                    value="{{ estat[1] }}"
-                  >
+                  <option *ngFor="let estat of estatList" value="{{ estat[1] }}">
                     {{ estat[0] }}
                   </option>
-                </select>
-              </div>
-              <div class="input-field col s3">
-                <div class="switch">
-                  <p><label>Oxigen?</label></p>
-                  <label>
-                    No
-                    <input
+            </select>
+
+            <div class="switch">
+              <label>Oxigen</label>
+              <label>
+                No
+                <input
                       id="lever"
                       type="checkbox"
                       name="oxigen"
                       #oxigen="ngModel"
-                      checked="checked"
                       [(ngModel)]="taskService.selectedTask.oxigen"
                       placeholder="enter oxigen"
-                    />
-                    <span class="lever"></span>
-                    Yes
-                  </label>
-                </div>
-              </div>
-              <div class="input-field col s3">
-                <button class="btn-small right" style="margin: 2px">
-                  Save
-                </button>
+                />
+                <span class="lever"></span>
+                  Yes
+              </label>
+            </div>
+            <p></p>
+
+            <div class="row center m-2">
+                <button class="btn-small" type="submit">Save</button>
                 <button
-                  class="btn-small right"
+                  class="btn-small"
                   (click)="resetForm(taskForm)"
-                  style="margin: 2px"
                 >
                   Clean
                 </button>
-              </div>
             </div>
-          </form>
-        </div>
-      </div>
-    </div>
+    </form>
   </div>
   <div class="row center" [hidden]="hiddenButton">
     <button
@@ -195,18 +171,4 @@
       <i class="material-icons">add</i>
     </button>
   </div>
-  <!-- Footer -->
 
-  <footer class="page-footer grey">
-    <div class="footer-copyright blue">
-      <div class="container">
-        © 2020 David M.
-        <a
-          class="grey-text text-lighten-4 right"
-          href="https://github.com/grinmor2018?tab=repositories"
-          >More Links</a
-        >
-      </div>
-    </div>
-  </footer>
-</div>

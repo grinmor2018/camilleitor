@@ -1,10 +1,8 @@
+import rooms from '../../../assets/data/rooms.json';
 import { Component, OnInit } from '@angular/core';
-
-import { TaskService } from '../../services/task.service';
 import { NgForm } from '@angular/forms';
 import { Task } from '../../models/task';
-import rooms from '../../../assets/data/rooms.json';
-
+import { TaskService } from '../../services/task.service';
 
 declare var M: any;
 
@@ -57,6 +55,7 @@ export class TasksComponent implements OnInit {
     this.taskService.getTasks().subscribe((res) => {
       this.taskService.tasks = res as Task[];
     });
+    this.scrollTop();
   }
 
   editTask(task: Task) {
@@ -64,7 +63,7 @@ export class TasksComponent implements OnInit {
     this.hiddenState=false;
     this.hiddenButton=true;
     this.hiddenButtons=true;
-    this.getFocus();
+    this.scrollDown();
   }
 
   deleteTask(_id: string, form: NgForm) {
@@ -95,5 +94,17 @@ export class TasksComponent implements OnInit {
   getFocus() {
     document.getElementById("formulario").focus({preventScroll:false});
   }
+
+  scrollTop() {
+    document.body.scrollTop = 0; // Safari
+    document.documentElement.scrollTop = 0; // Other
+  }
+
+  scrollDown() {
+    const height = document.body.scrollHeight;
+    document.body.scrollTop = height; // Safari
+    document.documentElement.scrollTop = height; // Other
+  }
+
 
 }

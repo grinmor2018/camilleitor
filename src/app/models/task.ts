@@ -1,17 +1,15 @@
 export class Task {
 
-  constructor(_id ='', room = '', name='',
-   hour='', transport='',
-   oxigen= false, destination='', estat=[['Demanat', 'red']])
+  constructor()
    {
-    this._id = _id;
-    this.room = room;
-    this.name = name;
-    this.hour = hour;
-    this.transport = transport;
-    this.oxigen = oxigen;
-    this.destination = destination;
-    this.estat = estat;
+    this._id = '';
+    this.room = '';
+    this.name = '';
+    this.hour = '';
+    this.transport = '';
+    this.oxigen = false;
+    this.destination = '';
+    this.estat = [['Demanat', 'red']];
   }
 
   _id: string;
